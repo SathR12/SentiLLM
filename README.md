@@ -1,6 +1,6 @@
-# LLMVibes
+# SentiLLM
 
-LLMVibes incorporates sentiment analysis using a custom supervised fine-tuned llama 3 1B param model to determine the "vibe" of the text input by the user. The application processes the text in real-time and updates the background color of the webpage to reflect the sentiment of the input. Bright green shades represent positive sentiments, while bright red shades represent negative sentiments. The backend is built with Flask to handle the API requests and integrate with the Ollama service that runs the fine-tuned model. Fine-tuning was done using unsloth wiht a custom gpt-generated dataset. 
+SentiLLM incorporates sentiment analysis using a custom supervised fine-tuned llama 3 1B param model to determine the "vibe" of the text input by the user. The application processes the text in real-time and updates the background color of the webpage to reflect the sentiment of the input. Bright green shades represent positive sentiments, while bright red shades represent negative sentiments. The backend is built with Flask to handle the API requests and integrate with the Ollama service that runs the fine-tuned model. Fine-tuning was done using unsloth wiht a custom gpt-generated dataset. 
 
 ## Features
 
